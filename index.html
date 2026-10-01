@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>CEIPA Academy Comercial</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<div class="scrim" id="scrim"></div>
+<div class="shell">
+  <aside class="side" id="side">
+    <div class="brand">
+      <svg class="shield" viewBox="0 0 34 40" aria-hidden="true"><path d="M2 2h30v22c0 8-9 13-15 14C11 37 2 32 2 24Z" fill="none" stroke="#fff" stroke-width="2"/><circle cx="17" cy="19" r="9" fill="none" stroke="#fff" stroke-width="1.5"/><path d="M8 10l18 18M26 10L8 28" stroke="#fff" stroke-width="1.5"/></svg>
+      <div class="brand__t">CEIPA Academy Comercial</div>
+      <div class="brand__s">Ruta de formación para asesores</div>
+    </div>
+    <div class="searchbox"><input id="q" type="search" placeholder="Buscar: precio, blended, objeción…" autocomplete="off"></div>
+    <nav class="nav" id="nav"></nav>
+    <div class="sidefoot">
+      <small>Avance en la ruta</small>
+      <div class="prog"><i id="pb"></i></div>
+      <small id="pt">0 de 0</small>
+      <button class="ghost" id="theme">Contraste</button>
+      <button class="ghost" id="reset">Reiniciar</button>
+    </div>
+  </aside>
+  <main class="main">
+    <div class="top">
+      <button class="burger" id="burger" aria-label="Menú">☰</button>
+      <span class="top__t" id="topt">Inicio</span>
+      <button class="quick" data-go="machete">Machete</button>
+    </div>
+    <div id="app"></div>
+  </main>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
